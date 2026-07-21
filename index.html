@@ -38,9 +38,9 @@ hr.divider{border:none;border-top:1px solid #1e1e1e;margin:32px 0;}
 </head>
 <body>
 
-<div class="updated">RIVER / USD &nbsp;|&nbsp; Last updated: 2026-07-21 00:37:18 &nbsp;|&nbsp; <span id="age"></span> &nbsp;|&nbsp; Updates every 15 min</div>
+<div class="updated">RIVER / USD &nbsp;|&nbsp; Last updated: 2026-07-21 00:37:58 &nbsp;|&nbsp; <span id="age"></span> &nbsp;|&nbsp; Updates every 15 min</div>
 <script>
-  var updated = new Date("2026-07-21 00:37:18");
+  var updated = new Date("2026-07-21 00:37:58");
   function showAge(){
     var mins = Math.round((new Date() - updated) / 60000);
     document.getElementById("age").textContent = mins < 2 ? "just updated" : mins + " min ago";
@@ -122,10 +122,10 @@ hr.divider{border:none;border-top:1px solid #1e1e1e;margin:32px 0;}
 <div style="background:#1a1a1a;border-radius:10px;padding:16px;margin-bottom:24px;">
   <div style="font-size:12px;font-weight:600;color:#aaa;margin-bottom:12px;">SIGNAL ACCURACY TRACKER</div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:14px;">
-    <div class="sc"><div class="sl">Overall win rate</div><div class="sv ">45%<small>4844 scored</small></div></div>
-    <div class="sc"><div class="sl">Buy win rate</div><div class="sv g">45%<small>4818 signals</small></div></div>
+    <div class="sc"><div class="sl">Overall win rate</div><div class="sv ">45%<small>4845 scored</small></div></div>
+    <div class="sc"><div class="sl">Buy win rate</div><div class="sv g">45%<small>4819 signals</small></div></div>
     <div class="sc"><div class="sl">Sell win rate</div><div class="sv r">38%<small>26 signals</small></div></div>
-    <div class="sc"><div class="sl">Total signals</div><div class="sv">6751<small>all time</small></div></div>
+    <div class="sc"><div class="sl">Total signals</div><div class="sv">6752<small>all time</small></div></div>
   </div>
   <table class="sig-table">
     <thead>
@@ -139,6 +139,13 @@ hr.divider{border:none;border-top:1px solid #1e1e1e;margin:32px 0;}
       </tr>
     </thead>
     <tbody><tr>
+            <td style="color:#666;font-size:11px;padding:4px 6px;">2026-07-21 05:37:55Z</td>
+            <td style="color:#378ADD;font-weight:600;font-size:12px;padding:4px 6px;">WAIT</td>
+            <td style="color:#aaa;font-size:11px;padding:4px 6px;">$3.297</td>
+            <td style="color:#aaa;font-size:11px;padding:4px 6px;">52%</td>
+            <td style="color:#555;font-size:14px;padding:4px 6px;text-align:center;">…</td>
+            <td style="color:#666;font-size:11px;padding:4px 6px;">pending</td>
+        </tr><tr>
             <td style="color:#666;font-size:11px;padding:4px 6px;">2026-07-21 05:37:16Z</td>
             <td style="color:#378ADD;font-weight:600;font-size:12px;padding:4px 6px;">WAIT</td>
             <td style="color:#aaa;font-size:11px;padding:4px 6px;">$3.297</td>
@@ -171,8 +178,8 @@ hr.divider{border:none;border-top:1px solid #1e1e1e;margin:32px 0;}
             <td style="color:#1D9E75;font-weight:600;font-size:12px;padding:4px 6px;">BUY</td>
             <td style="color:#aaa;font-size:11px;padding:4px 6px;">$3.270</td>
             <td style="color:#aaa;font-size:11px;padding:4px 6px;">70%</td>
-            <td style="color:#555;font-size:14px;padding:4px 6px;text-align:center;">…</td>
-            <td style="color:#666;font-size:11px;padding:4px 6px;">pending</td>
+            <td style="color:#1D9E75;font-size:14px;padding:4px 6px;text-align:center;">✓</td>
+            <td style="color:#666;font-size:11px;padding:4px 6px;">0.826%</td>
         </tr><tr>
             <td style="color:#666;font-size:11px;padding:4px 6px;">2026-07-21 04:22:55Z</td>
             <td style="color:#1D9E75;font-weight:600;font-size:12px;padding:4px 6px;">BUY</td>
@@ -201,13 +208,6 @@ hr.divider{border:none;border-top:1px solid #1e1e1e;margin:32px 0;}
             <td style="color:#aaa;font-size:11px;padding:4px 6px;">68%</td>
             <td style="color:#e05a30;font-size:14px;padding:4px 6px;text-align:center;">✗</td>
             <td style="color:#666;font-size:11px;padding:4px 6px;">-1.476%</td>
-        </tr><tr>
-            <td style="color:#666;font-size:11px;padding:4px 6px;">2026-07-21 03:22:55Z</td>
-            <td style="color:#1D9E75;font-weight:600;font-size:12px;padding:4px 6px;">BUY</td>
-            <td style="color:#aaa;font-size:11px;padding:4px 6px;">$3.298</td>
-            <td style="color:#aaa;font-size:11px;padding:4px 6px;">77%</td>
-            <td style="color:#e05a30;font-size:14px;padding:4px 6px;text-align:center;">✗</td>
-            <td style="color:#666;font-size:11px;padding:4px 6px;">-0.849%</td>
         </tr></tbody>
   </table>
 </div>
